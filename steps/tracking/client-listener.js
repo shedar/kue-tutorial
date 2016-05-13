@@ -3,7 +3,7 @@ var kue = require('kue');
 //Same queue as we use in the worker
 var queue = kue.createQueue({
   "prefix": "q","redis": {
-    "host": "192.168.59.103"
+    "host": "127.0.0.1"
   }
 });
 
