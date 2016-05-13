@@ -1,0 +1,18 @@
+{
+  "name": "kue-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "step1-client": "node steps/basic/client.js",
+    "step1-worker": "node steps/basic/worker.js",
+    "step2-client": "node steps/tracking/client.js",
+    "step2-worker": "node steps/tracking/worker.js",
+    "web": "node steps/web/index.js"
+  },
+  "author": "Oleg Romanovskyi",
+  "license": "ISC",
+  "dependencies": {
+    "kue": "^0.11.0"
+  }
+}
